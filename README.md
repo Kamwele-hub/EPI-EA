@@ -1,1 +1,1 @@
-Environmental Protection INdex 2024
+Environmental Protection Index 2024
