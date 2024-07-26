@@ -1,0 +1,39 @@
+/* src/styles/Sidebar.css */
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  button::after {
+    content: '▼';
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .relative div {
+    position: absolute;
+    right: 0;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+  }
+  
+  .relative div a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .relative div a:hover {
+    background-color: #f0f0f0;
+  }
+  

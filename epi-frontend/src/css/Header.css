@@ -1,0 +1,28 @@
+/* src/styles/Header.css */
+
+header {
+    background: linear-gradient(to right, #2e7d32, #388e3c); /* Green gradient */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  
+  header .flex {
+    gap: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  }
+  

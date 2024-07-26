@@ -1,0 +1,21 @@
+import React from 'react';
+import FilterBar from './FilterBar';
+import SearchBar from './SearchBar';
+
+const ResultsPage = () => {
+  return (
+    <div className="bg-background min-h-screen p-4">
+      <header className="bg-primary text-white p-4 flex justify-between items-center">
+        <div>Main Navbar</div>
+        <div>Nested Navbar</div>
+      </header>
+      <div className="flex space-x-4 p-4">
+        <FilterBar />
+        <SearchBar />
+      </div>
+      {/* Add the results table and charts here */}
+    </div>
+  );
+};
+
+export default ResultsPage;
